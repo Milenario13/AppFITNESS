@@ -6,4 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_bienvenida"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_cerrarsesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesion" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
